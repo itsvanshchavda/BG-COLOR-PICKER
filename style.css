@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  /* Google font */
+
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #d34242, #1727d4);
+}
+
+
+.container{
+    font-size: 20px;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    
+}
+
+.container h1{
+    color: rgba(0, 0, 0, 0.518);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.picker{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.picker #inputOne{
+    margin-right: 10px;
+}
+.picker #inputTwo{
+    margin-right:10px ;
+}
+.picker #textField{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.picker button{
+    margin-left: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-size: 13px;
+    background: blue;
+    color: white;
+    font-weight: 700;
+
+}
+
+.picker button:hover{
+    background: rgba(204, 0, 255, 0.4);
+    cursor: pointer;
+}
